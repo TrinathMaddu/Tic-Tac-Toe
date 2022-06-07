@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <audio id="myaudio" src="baby.mp3" type="audio/mp3"  loop="loop">
+    </audio>
+    <!-- <div  id="music-btn">
+    </div> -->
+    <button class="test" onclick="control()">MUSIC : ON</button>
+
+    <h1>Tic Tac Toe</h1>
+    <div class="pad">
+
+        <div class="box t1 l1" id="1st"><span class="icon "></span></div>
+        <div class="box t1"><span class="icon "></span></div>
+        <div class="box t1 r1"><span class="icon "></span></div>
+        <div class="box l1"><span class="icon"></span></div>
+        <div class="box"><span class="icon"></span></div>
+        <div class="box r1"><span class="icon"></span></div>
+        <div class="box b1 l1"><span class="icon"></span></div>
+        <div class="box b1"><span class="icon"></span></div>
+        <div class="box b1 r1"><span class="icon"></span></div>
+
+    </div>
+
+    <p id="turn">PLAYER 'X' TURN</p>
+    <div class="bt">
+        <button id="reset" onclick="reset()">RESET</button>
+    </div>
+   
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
